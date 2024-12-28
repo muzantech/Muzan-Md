@@ -1,6 +1,6 @@
 <p align="center"><h1>muzan-md 🚀</h1><br> </p>
 
-![banner](muzan-md.jpg)
+![banner](muzan-md.jpeg)
 
 muzan-md est un bot multi-devices conçu pour enrichir vos conversations WhatsApp avec des fonctionnalités utiles et amusantes. Qu'il s'agisse de gérer des fichiers, d'interagir avec des stickers ou de faciliter la gestion de groupe, muzan-md est là pour vous aider ! 🎉💬
 
