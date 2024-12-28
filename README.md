@@ -37,7 +37,7 @@ muzan-md est un bot multi-devices conçu pour enrichir vos conversations WhatsAp
 - **Déploiement sur Koyeb** :
   1. Si vous n'avez pas de compte **Koyeb**, cliquez [**ici**](https://dashboard.koyeb.com/signup) pour en créer un.
   2. Cliquez sur le bouton ci-dessous pour déployer sur Koyeb :<br>
-     [![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?name=muzan-md&type=docker&image=docker.io%2Fluffy077%2Fmuzanmd%3Alatest&env%5BPREFIXE%5D=.&env%5BLECTURE_AUTO_STATUS%5D=oui&env%5BTELECHARGER_AUTO_STATUS%5D=oui&env%5BNOM_BOT%5D=Zokou-MD&env%5BLIENS_MENU%5D=https%3A%2F%2Fwallpapercave.com%2Fuwp%2Fuwp3943464.jpeg&env%5BPM_PERMIT%5D=non&env%5BMODE_PUBLIC%5D=oui&env%5BETAT%5D=1&env%5BSESSION_ID%5D=mettez+votre+session&env%5BNOM_OWNER%5D=Muzan%2B%2B&env%5BNUMERO_OWNER%5D=22891733300&env%5BWARN_COUNT%5D=3&env%5BSTARTING_BOT_MESSAGE%5D=oui&env%5BANTI_VUE_UNIQUE%5D=oui&env%5BPM_CHATBOT%5D=non&env%5BHEROKU%5D=non&env%5BDATABASE_URL%5D=mettez+une+database&env%5BANTI_COMMAND_SPAM%5D=non&ports=8000%3Bhttp%3B%2F)
+     [![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?name=muzan-md&type=docker&image=docker.io%2Fluffy077%2Fmuzanmd%3Alatest&env%5BPREFIXE%5D=.&env%5BLECTURE_AUTO_STATUS%5D=oui&env%5BTELECHARGER_AUTO_STATUS%5D=oui&env%5BNOM_BOT%5D=muzan-md&env%5BLIENS_MENU%5D=https%3A%2F%2Fwallpapercave.com%2Fuwp%2Fuwp3943464.jpeg&env%5BPM_PERMIT%5D=non&env%5BMODE_PUBLIC%5D=oui&env%5BETAT%5D=1&env%5BSESSION_ID%5D=mettez+votre+session&env%5BNOM_OWNER%5D=Muzan%2B%2B&env%5BNUMERO_OWNER%5D=22891733300&env%5BWARN_COUNT%5D=3&env%5BSTARTING_BOT_MESSAGE%5D=oui&env%5BANTI_VUE_UNIQUE%5D=oui&env%5BPM_CHATBOT%5D=non&env%5BHEROKU%5D=non&env%5BDATABASE_URL%5D=mettez+une+database&env%5BANTI_COMMAND_SPAM%5D=non&ports=8000%3Bhttp%3B%2F)
 
 - **Déploiement sur Render** :
   1. Si vous n'avez pas de compte **Render**, cliquez [**ici**](https://dashboard.render.com) pour vous inscrire.
@@ -115,7 +115,7 @@ jobs:
 
     - name: Start application with timeout
       run: |
-        timeout 14520s npm run muzan
+        timeout 14520s npm run muzan-md
 
 ```
 
@@ -135,5 +135,5 @@ Le Bot WhatsApp muzan est publié sous la [Licence MIT](https://opensource.org/l
 Profitez des fonctionnalités variées du Bot WhatsApp muzan pour améliorer vos conversations et rendre votre expérience WhatsApp plus intéressante ! 🎊💬
 
 ## Développeurs :
-- [**muzantech**](https://github.com/Digitalgeek-hack/Muzan-md/)
-- [**jarixpro᚜**](https://github.com/Digitalgeek-hack/Muzan-md)
+- [**muzantech**](https://whatsapp.com/channel/0029VasZwtl6LwHqW3olOH44)
+- [**jarixpro᚜**](https://github.com/muzantech/Muzan-Md)
