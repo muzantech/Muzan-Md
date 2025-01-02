@@ -25,8 +25,8 @@ muzan-md est un bot multi-devices conçu pour enrichir vos conversations WhatsAp
 1. Cliquez sur **[Fork](https://github.com/https://github.com/muzantech/Muzan-Md/fork)** afin de copier le repo sur votre compte GitHub. N'oubliez pas d'ajouter une étoile 🌟 pour encourager les développeurs !
 
 2. Obtenez une session du bot :  
-   - [Session-1](https://zkscan.onrender.com)  
-   - [Session-2](https://zokouscan-din3.onrender.com)
+   - [Session-1](https)  
+   - [Session-2](https://)
 
 ## Déploiement 🚀
 
@@ -42,8 +42,8 @@ muzan-md est un bot multi-devices conçu pour enrichir vos conversations WhatsAp
 - **Déploiement sur Render** :
   1. Si vous n'avez pas de compte **Render**, cliquez [**ici**](https://dashboard.render.com) pour vous inscrire.
   2. Créez un nouveau sweb service.  
-  3. Choisissez **Public Git Repository**.  
-  4. Dans le champ , entrez `https://gitlab.com/bankai421341/senbonzakura.git`.
+  3. Choisissez **Repository**.  
+  4. Dans le champ , entrez `le fork du repo`.
   5. Cliquez sur **Connect**.  
   6. Sélectionnez le **Free Plan** si vous ne voulez pas payer.  
   7. Dans la section **environemment variable**, cliquez sur **Add from .env** et copiez le contenu suivant :
