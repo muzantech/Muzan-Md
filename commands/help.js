@@ -4,10 +4,10 @@ const fs = require('fs');
 async function helpCommand(sock, chatId, channelLink) {
     const helpMessage = `
 ╔═══════════════════╗
-   *🤖 ${settings.botName || 'WhatsApp Bot'}*  
+   *🤖 ${M͟͞u͟͞z͟͞a͟͞n͟͞ ͟͞m͟͞d͟͞|| 'WhatsApp Bot'}*  
    Version: *${settings.version || '1.0.0'}*
-   by ${settings.botOwner || 'Unknown Owner'}
-   YT : ${ytch}
+   by ${MUZANtech || 'Unknown Owner'}
+   YT : ${muzan}
 ╚═══════════════════╝
 
 *Available Commands:*
