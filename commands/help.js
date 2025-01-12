@@ -4,10 +4,10 @@ const fs = require('fs');
 async function helpCommand(sock, chatId, channelLink) {
     const helpMessage = `
 ╔═══════════════════╗
-   *🤖 ${M͟͞u͟͞z͟͞a͟͞n͟͞ ͟͞m͟͞d͟͞|| 'WhatsApp Bot'}*  
+   *🤖 ${settings.botName || 'WhatsApp Bot'}*  
    Version: *${settings.version || '1.0.0'}*
-   by ${MUZANtech || 'Unknown Owner'}
-   YT : ${muzan}
+   by ${settings.botOwner || 'Unknown Owner'}
+   YT : ${ytch}
 ╚═══════════════════╝
 
 *Available Commands:*
@@ -74,15 +74,15 @@ async function helpCommand(sock, chatId, channelLink) {
 ║ ➤ .topmembers
 ╚═══════════════════╝
 
-${channelLink ? `🔗 *Join our Channel:* \n${https://whatsapp.com/channel/0029Vay9h2f9cDDhuVzhvC0r}` : 'No channel link available'}
+${channelLink ? `🔗 *Join our Channel:* \n${channelLink}` : 'No channel link available'}
 
-@${settings.botName || 'M͟͞u͟͞z͟͞a͟͞n͟͞ ͟͞m͟͞d͟͞'} 2024 v${settings.version || '1.0.0'}
+@${settings.botName || 'KnightBot'} 2024 v${settings.version || '1.0.0'}
 `;
 
     try {
         const imagePath = './assets/bot_image.jpg';
         if (fs.existsSync(imagePath)) {
-            const imageBuffer =fs.readFileSync(imagePath);
+            const imageBuffer = fs.readFileSync(imagePath);
             await sock.sendMessage(chatId, { 
                 image: imageBuffer, 
                 caption: helpMessage 
